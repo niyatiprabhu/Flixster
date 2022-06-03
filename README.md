@@ -32,6 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/73393929/171967965-9b8ab3bc-8573-46fa-882d-05bb9a5a0475.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
