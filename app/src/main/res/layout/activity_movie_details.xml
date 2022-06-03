@@ -37,6 +37,7 @@
         android:layout_below="@+id/tvMovieTitle"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
         android:numStars="5"
         android:stepSize=".5" />
 
@@ -52,9 +53,10 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
         android:fontFamily="sans-serif-light"
         android:lineSpacingExtra="8sp"
         android:text="TextView"
@@ -68,5 +70,17 @@
         android:layout_height="wrap_content"
         android:text="Back"
         app:iconTint="#63ACCD" />
+
+    <ImageView
+        android:id="@+id/ivMovieBackdrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMovieOverview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </RelativeLayout>
